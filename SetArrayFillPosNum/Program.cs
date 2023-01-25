@@ -27,7 +27,7 @@ void EvenOdd(int[] array)
             evenNum++;
            
         }
-        else if(array[i]%2 == 1)
+        else if(array[i]%2 != 0)
         {
             oddNum++;
         }
